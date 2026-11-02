@@ -52,16 +52,35 @@
 
 ### Installation & Run
 
-```bash
+Clone the repository:
 
+```bash
 git clone https://github.com/MirzaMustakim/aiproject.git
 cd aiproject
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
+```
 
-Open `http://localhost:4173` (or `http://localhost:5173` for dev) in your browser.
+Open the local URL displayed in your terminal (usually `http://localhost:5173`).
 
----
+To create and preview a production build:
+
+```bash
+npm run build
+npm run preview
+```
+
+The preview server usually runs at `http://localhost:4173`.
 
 ## 💡 Tell Us How You Think (Answering the 8 Core Questions)
 
