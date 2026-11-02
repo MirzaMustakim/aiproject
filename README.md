@@ -254,7 +254,16 @@ For recording your demo video, follow this structured walkthrough:
    - Open **Data Management** to show how new employees, brands, or rules can be added dynamically.
    - Open **Approvals**, review the 4 pod lead sign-offs, and click **"Publish Roster"** to celebrate!
 
----
+## 📌 Project Assumptions
+
+1. Every employee belongs to one operational pod.
+2. Every brand has one or more assigned processes.
+3. Each process has a minimum staffing requirement.
+4. Employees can only cover processes for which they have the required skills.
+5. Approved leaves and weekly rest days must be respected.
+6. Employee preferences are considered after mandatory coverage requirements.
+7. When available employees cannot satisfy coverage, the system reports a gap and suggests eligible backups.
+8. The roster is generated for a monthly scheduling period.
 
 ## 📄 Submission Checklist
 - [x] Working application tested with zero compilation errors (`npm run build`).
