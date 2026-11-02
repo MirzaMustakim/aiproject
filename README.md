@@ -53,20 +53,11 @@
 ### Installation & Run
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/smart-roster-management.git
-cd smart-roster-management
 
-# 2. Install dependencies
+git clone https://github.com/MirzaMustakim/aiproject.git
+cd aiproject
 npm install
-
-# 3. Start local development server
 npm run dev
-
-# 4. Or build and run production preview
-npm run build
-npm run preview -- --port 4173
-```
 
 Open `http://localhost:4173` (or `http://localhost:5173` for dev) in your browser.
 
